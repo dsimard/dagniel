@@ -1,0 +1,31 @@
+/* http://img.dafont.com/preview.php?text=dagniel&ttf=uncle_typewriter0&size=22&psize=l&y=43 */
+body {
+	margin:0;
+  font-family: "Verdana"; 
+	color: #1e2d3c;
+	font-size:16px;
+	background-image:url(/images/corbeau.png);
+	background-repeat:no-repeat;
+	background-position:650px 50px;
+}
+
+h1 {
+  margin:0;
+}
+
+h3 {
+  margin:0;
+  font-variant:small-caps;
+  font-weight:bold;
+}
+
+#jGrowl a {
+  color:#fff;
+  font-weight:bold;
+}
+
+ol {
+  margin-top:1em;
+  font-size:75%;
+}
+
