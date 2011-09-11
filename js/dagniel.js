@@ -7,11 +7,6 @@ function load() {
   ).append(
     $("<span>").text(" pour télécharger le mini-album gratuitement")
   );
-  
-  if (shouldShow())
-    $.jGrowl(a.html(), { sticky: true, beforeOpen : beforeOpen, close : noShow});
-    
-  tumblr();
 }
 
 function beforeOpen(e, m, o) {
