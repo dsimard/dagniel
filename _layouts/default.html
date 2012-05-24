@@ -5,28 +5,35 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>dagniel &rarr; country traditionnel - Trois-Rivières</title>
-  <link href="/css/screen.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="/css/style.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="/css/jgrowl.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<div class="container showgrid2">
-	  <div id="header" class="span-24 prepend-top last">
-	    <h1 class="span-8"><img src="/images/dagniel.png" alt="dagniel" /></h1>
-      <h2 class="span-8">country traditionnel</h2>
-	    <a href="http://www.facebook.com/pages/Dagniel/175949598554" target="_blank">
+	<div class="container">
+	  <div class="row">
+	    <div class="span10">
+	      <h1><img src="/images/dagniel.png" alt="dagniel" /></h1>
+	      <h2>country traditionnel</h2>
+	    </div>
+	    <div class="span2">
+	      <a href="http://www.facebook.com/pages/Dagniel/175949598554" target="_blank">
 			    <img src="/images/facebook.png" align="abstop" />
-	    </a>
+			  </a>
+	    </div>
+	    <hr />
 	  </div>
-	  <hr class="space" />
-    {{ content }}
-    <hr />
-    <div class="span-20 quiet small">
-  	  <a href="mailto:bonjour@dagniel.com">bonjour@dagniel.com</a> | 
-  	  <a href="http://www.azanka.ca" target="_blank">Azanka</a>
-  	  &copy; 2011
-  	</div>
-	</div>
+	  <div class="row">
+      {{ content }}
+    </div>
+    <footer class="row">
+      <hr />
+      <div class="span12 quiet small">
+    	  <a href="mailto:bonjour@dagniel.com">bonjour@dagniel.com</a> | 
+    	  <a href="http://www.azanka.ca" target="_blank">Azanka</a>
+    	  &copy; 2011
+    	</div>
+    </footer>
+  </div>
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
